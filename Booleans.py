@@ -2,7 +2,7 @@ niebo_jest_niebieskie = True
 jedzenie_jest_kiepskie = False
 print (niebo_jest_niebieskie, jedzenie_jest_kiepskie)
 print ('--------------------------------------------------')
-
+print('Dodatkowy print')
 
 koszt_domu = int (input ('Ile kosztuje dom?: '))
 dostepna_kasa = int (input ('Ile masz teraz kasy?: '))
