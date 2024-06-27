@@ -2,9 +2,21 @@
 
 phone = input('Wprowadź swój numer telefonu : ')
 
+def process_phone(phone):
+    pass
+
+def wrong_phone(phone):
+    print("Nieprawidłowy numer telefonu")
+
+
 # Długość numeru (Z 48)
-if len(phone) != 12:
+if len(phone) != 11:
     print('Nieprawidłowy numer telefonu!')
+if len(phone) == 9:
+    elif len(phone) == 11:
+        elif len(phone) == 12:
+            print(" Nieprawidłowy kod, podaj prawidłowy numer")
+
 else:
     # Czy na 4 i 8 jest myślnik
     if phone[3] != '-' or phone[7] != '-':
